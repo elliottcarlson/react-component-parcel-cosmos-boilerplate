@@ -5,7 +5,7 @@ with React Cosmos.
 
 ## Parcel
 
-(Parcel)[https://parceljs.org/] is a web application bundler, differentiated by
+[Parcel](https://parceljs.org/) is a web application bundler, differentiated by
 its developer experience. It offers blazing fast performance utilizing multicore
 processing, and requires zero configuration.
 
