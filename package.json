@@ -1,0 +1,31 @@
+{
+    "name": "react-component-parcel-cosmos-boilerplate",
+    "version": "1.0.0",
+    "description": "Boilerplate project to setup a React component using Parcel and Cosmos",
+    "main": "dist/index.js",
+    "scripts": {
+        "cosmos": "parcel serve cosmos/index.html -d cosmos/build --open",
+        "build": "parcel build --global react-component-parcel-cosmos-boilerplate --experimental-scope-hoisting src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/elliottcarlson/react-component-parcel-cosmos-boilerplate.git"
+    },
+    "author": "Elliott Carlson <x@sublim.nl>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/elliottcarlson/react-component-parcel-cosmos-boilerplate/issues"
+    },
+    "homepage": "https://github.com/elliottcarlson/react-component-parcel-cosmos-boilerplate#readme",
+    "peerDependencies": {
+        "react": "^15.0.0 || ^16.0.0"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.4",
+        "react": "^16.13.1",
+        "react-cosmos": "^5.2.1",
+        "react-cosmos-loader": "^4.8.4",
+        "react-cosmos-playground": "^4.8.5",
+        "react-dom": "^16.13.1"
+    }
+}
